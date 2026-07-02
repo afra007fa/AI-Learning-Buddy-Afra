@@ -26,9 +26,7 @@ This project was developed as part of the **AI EMPOW(H)ER Capstone Project by In
 
 ## Streamlit Application
 Public Demo Link:
-https://wrecker-unbent-quaintly.ngrok-free.dev/
-
-> Note: The application was deployed using ngrok. Since ngrok generates temporary public URLs, the link may become unavailable if the local server is not active.
+https://ai-learning-buddy-afra.streamlit.app/
 
 ## AI Buddy Persona
 **Name:** Afra
