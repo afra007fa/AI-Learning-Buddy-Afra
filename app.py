@@ -42,6 +42,8 @@ if st.button("Generate"):
         else:
             prompt = topic
 
-        response = model.generate_content(prompt)
-
-        st.write(response.text)
+            try:
+                response = model.generate_content(prompt)
+                st.write(response.text)
+            except Exception as e:
+                st.error(f"Error: {e}")
